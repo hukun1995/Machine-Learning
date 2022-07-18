@@ -1,0 +1,11 @@
+DCN 先embedding再cross，有体现到特征交互，但是能体现wide&deep的记忆性吗、人为构造特征不进入embedding即可
+
+
+
+wide&deep:
+- https://dl.acm.org/doi/pdf/10.1145/2988450.2988454
+- https://zhuanlan.zhihu.com/p/334991736
+
+DCN：
+- https://arxiv.org/pdf/1708.05123.pdf
+- https://zhuanlan.zhihu.com/p/399948291
