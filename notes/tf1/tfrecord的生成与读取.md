@@ -1,7 +1,6 @@
 ### 一、背景
-利用tensorflow训练深度模型，数据的处理和输入是必须的一个步骤，为了高效的读取数据，用官网文档的话说就是tfrecord对数据进行序列化并将其存储在一组可线性读取的文件中，从硬盘流式读取。
-对于内存的利用有很大的作用。
-
+利用tensorflow训练深度模型，数据的处理和输入是必须的一个步骤，为了高效的读取数据，官网文档推荐用tfrecord（一种基于protobuffer的数据格式）对数据进行序列化并将其存储在一组可线性读取的文件中，从硬盘流式读取以优化内存的利用。
+- [protobuffer详解](https://zhuanlan.zhihu.com/p/432875529)
 
 ### 二、TFRecord生成
 **数据说明**
@@ -69,6 +68,6 @@ tf.train.feature属性，每一个feature 是一个key-value的键值对，其�
 
 参考：
 1. [[数据读取]1.tfRecord的生成和读取]([https://blog.csdn.net/lht_okk/article/details/122929430](https://zhuanlan.zhihu.com/p/462458423))
-
+2. [tf_record 的几种生成方法。](https://www.jianshu.com/p/26b331bfb393)
 
 
